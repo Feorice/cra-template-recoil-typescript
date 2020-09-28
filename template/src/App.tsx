@@ -16,7 +16,9 @@ function App() {
     <div className='App'>
       <header className='App-header'>
         <Logo />
-        <button onClick={toggleAnimation()}>Toggle animation</button>
+        <button className='App-button' onClick={toggleAnimation}>
+          Toggle animation
+        </button>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>

@@ -9,8 +9,10 @@ const Logo = () => {
 
   return (
     <div>
-      <img src={logo} className={'App-logo ' + (logoAnimation ? 'animate' : null)} alt='logo' />
+      <img src={logo} className={'App-logo ' + (logoAnimation ? 'App-logo-animate' : null)} alt='logo' />
       
     </div>
   );
 };
+
+export default Logo;
