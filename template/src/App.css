@@ -7,9 +7,25 @@
   pointer-events: none;
 }
 
+.App-button {
+  background-color: #61dafb;
+  padding: 10px;
+  font-size: calc(2vmin);
+  border: 1px solid black;
+}
+
+.App-button:focus {
+  outline: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+    animation-play-state: paused;
+  }
+
+  .App-logo-animate {
+    animation-play-state: running;
   }
 }
 
