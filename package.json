@@ -19,6 +19,9 @@
     "type": "git",
     "url": "https://github.com/Feorice/cra-template-recoil-typescript.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "bugs": {
     "url": "https://github.com/Feorice/cra-template-recoil-typescript/issues"
   },
